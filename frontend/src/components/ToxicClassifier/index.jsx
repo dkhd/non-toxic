@@ -8,10 +8,22 @@ const label = {
   placeholder: "Type here...",
 };
 
+const randomToxic = [
+  "that is appropriate talk you fucking dipshit i will come to your house and stab you repeatedly while you sleep and watch you bleed to death and cry and i will laugh",
+  "oh shit i have been blocked whatever will i do eye roll you pathetic cunt why not give me your home address and we can discuss it in further detail there coward",
+  "he was a fucking bastard piece of shit the day that motherfucker was shot like the dog he was was a glorious motherfucking day for the rest of latin america if you have a problem with this statement lets meet in person murderers and antiheros deserve no accolades not even from brainless hypocritical marxist pigs",
+  "hey you cunt armchair lawyer do you like it sitting in your mom is basement trying to act like you are know it all go fuck yourself you stupid cunt bag",
+  "eat my dick asshole there is no way to contribute when this man is misusing his powers meet me irl so i can educate you stupid mongoloid",
+];
+
 function ToxicClassifier(props) {
   const [text, setText] = useState("");
   const [requesting, setRequesting] = useState(false);
   const [resultDone, setResultDone] = useState(false);
+
+  const getRandomToxicComment = () => {
+    return randomToxic[Math.floor(Math.random() * randomToxic.length)];
+  };
 
   const checkResult = (data) => {
     setRequesting(false);
@@ -62,11 +74,13 @@ function ToxicClassifier(props) {
               setResultDone(false);
             }}
             disabled={requesting}
+            value={text}
           ></textarea>
           <div className="flex flex-row mt-10">
             <div className="flex flex-row mx-auto space-x-5">
               <button
                 disabled={requesting}
+                onClick={(e) => setText(getRandomToxicComment())}
                 className="flex flex-row w-full lg:w-fit bg-white p-3 rounded-md text-bermuda-600 disabled:bg-gray-100 disabled:text-bermuda-400"
               >
                 <span className="m-auto">Randomize</span>
