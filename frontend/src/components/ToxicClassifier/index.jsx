@@ -82,6 +82,7 @@ function ToxicClassifier(props) {
                 disabled={requesting}
                 onClick={(e) => {
                   setText(getRandomToxicComment());
+                  props.setResult("");
                   setResultDone(false);
                 }}
                 className="flex flex-row w-full lg:w-fit bg-white p-3 rounded-md text-bermuda-600 disabled:bg-gray-100 disabled:text-bermuda-400"
