@@ -9,7 +9,7 @@ const label = {
 };
 
 const randomToxic = [
-  "that is appropriate talk you fucking dipshit i will come to your house and stab you repeatedly while you sleep and watch you bleed to death and cry and i will laugh",
+  "that is appropriate talk you braindead dipshit i will come to your house and stab you repeatedly while you sleep and watch you bleed to death and cry and i will laugh",
   "oh shit i have been blocked whatever will i do eye roll you pathetic cunt why not give me your home address and we can discuss it in further detail there coward",
   "he was a fucking bastard piece of shit the day that motherfucker was shot like the dog he was was a glorious motherfucking day for the rest of latin america if you have a problem with this statement lets meet in person murderers and antiheros deserve no accolades not even from brainless hypocritical marxist pigs",
   "hey you cunt armchair lawyer do you like it sitting in your mom is basement trying to act like you are know it all go fuck yourself you stupid cunt bag",
