@@ -80,7 +80,10 @@ function ToxicClassifier(props) {
             <div className="flex flex-row mx-auto space-x-5">
               <button
                 disabled={requesting}
-                onClick={(e) => setText(getRandomToxicComment())}
+                onClick={(e) => {
+                  setText(getRandomToxicComment());
+                  setResultDone(false);
+                }}
                 className="flex flex-row w-full lg:w-fit bg-white p-3 rounded-md text-bermuda-600 disabled:bg-gray-100 disabled:text-bermuda-400"
               >
                 <span className="m-auto">Randomize</span>
