@@ -1,0 +1,25 @@
+{
+  "short_name": "Toxic",
+  "name": "Toxic Comment Detection",
+  "icons": [
+    {
+      "src": "non-toxic.png",
+      "sizes": "64x64 32x32 24x24 16x16",
+      "type": "image/png"
+    },
+    {
+      "src": "non-toxic.png",
+      "type": "image/png",
+      "sizes": "192x192"
+    },
+    {
+      "src": "non-toxic.png",
+      "type": "image/png",
+      "sizes": "512x512"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#70dcba",
+  "background_color": "#70dcba"
+}
