@@ -17,4 +17,12 @@ router.post("/", async function (req, res, next) {
   res.json(result);
 });
 
+router.get("/", function (req, res, next) {
+  res.render("index", {
+    title:
+      "Please use POST. Complete information can be found here https://note.hadna.space/detect-toxic-comments-in-your-app-using-toxicity-space",
+  });
+});
+
+
 module.exports = router;
