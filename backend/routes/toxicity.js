@@ -18,10 +18,12 @@ router.post("/", async function (req, res, next) {
 });
 
 router.get("/", function (req, res, next) {
-  res.render("index", {
-    title:
-      "Please use POST. Complete information can be found here https://note.hadna.space/detect-toxic-comments-in-your-app-using-toxicity-space",
-  });
+  let result = {
+    message:
+      "Please don't send GET request to this endpoint, use POST only. Read more detailed information in the following URL.",
+    url: "https://note.hadna.space/detect-toxic-comments-in-your-app-using-toxicity-space",
+  };
+  res.json(result);
 });
 
 
