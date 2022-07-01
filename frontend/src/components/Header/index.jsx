@@ -3,7 +3,7 @@ import React from "react";
 function Header() {
   return (
     <div className="flex flex-row w-full p-5  bg-white">
-      <img src="./non-toxic.png" className="w-14" alt="logo" />
+      <img src="./logo-toxicity.png" className="w-14" alt="logo" />
       <div className="grow" />
       <a
         href="https://note.hadna.space/detect-toxic-comments-in-your-app-using-toxicity-space"

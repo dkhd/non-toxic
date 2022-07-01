@@ -10,7 +10,7 @@ function Footer() {
           target="_blank"
           rel="noreferrer"
         >
-          <img src="./non-toxic.png" alt="Linode" className="w-14" />
+          <img src="./logo-toxicity.png" alt="Linode" className="w-14" />
         </a>
       </div>
       <div className="flex flex-col w-full m-auto">
