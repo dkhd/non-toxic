@@ -35,4 +35,6 @@ curl -X POST https://toxicity.space/api
 ---
 This project is built with ♥️ by [Diky Hadna](https://hadna.space) to participate in the [Linode x Hashnode 2022 Hackathon](https://townhall.hashnode.com/build-with-linode-hackathon-june-2022).
 
+Licensed under MIT License.
+
 Supported by [Linode](https://www.linode.com) & [Hashnode](https://hashnode.com)
