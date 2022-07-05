@@ -32,6 +32,9 @@ curl -X POST https://toxicity.space/api
    -d '{"text":"hey, nice shirt you are wearing today"}'
 ```
 
+
+Detailed information about this project can be [read here](https://note.hadna.space/detect-toxic-comments-in-your-app-using-toxicity-space).
+
 ---
 This project is built with ♥️ by [Diky Hadna](https://hadna.space) to participate in the [Linode x Hashnode 2022 Hackathon](https://townhall.hashnode.com/build-with-linode-hackathon-june-2022).
 
